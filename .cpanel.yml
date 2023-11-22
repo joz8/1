@@ -1,0 +1,10 @@
+---
+deploy:
+  tasks:
+    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/github/
+    - /bin/cp -r $DEPLOYPATH/* $HOME/repo
+
+    - /usr/bin/git -C $HOME/repo pull origin main
+    - /usr/bin/git -C $HOME/repo add .
+    - /usr/bin/git -C $HOME/repo commit -m "Automatic deployment from cPanel"
+    - /usr/bin/git -C $HOME/repo push origin main
