@@ -1,7 +1,7 @@
 ---
 deploy:
   tasks:
-    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/github2/
+    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/github3/
     - /bin/cp -r $DEPLOYPATH/* $HOME/repo
 
     - /usr/bin/git -C $HOME/repo pull origin main
