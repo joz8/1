@@ -1,8 +1,9 @@
----
+===
+
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/gt/
-    - /usr/bin/git pull origin main
-    - /usr/bin/git add -A
-    - /usr/bin/git commit -m "Auto commit from cPanel"
-    - /usr/bin/git push origin main
+    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/github3
+    - /usr/local/cpanel/3rdparty/bin/git pull origin main
+    - /usr/local/cpanel/3rdparty/bin/git add --all
+    - /usr/local/cpanel/3rdparty/bin/git commit -m "Auto-commit"
+    - /usr/local/cpanel/3rdparty/bin/git push origin main
