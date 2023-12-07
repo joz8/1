@@ -1,4 +1,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/rrrrr/0/aa7.site/gg
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R aset $DEPLOYPATH
