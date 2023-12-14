@@ -4,5 +4,5 @@ deployment:
     - /bin/cp -R aset/img/g1 $DEPLOYPATH1
     
     - export DEPLOYPATH_CPANEL=/home/rrrrr/public_html/r1
-    - /bin/cp -R aset $DEPLOYPATH_CPANEL
+    - /bin/cp -R aset/img/r1 $DEPLOYPATH_CPANEL
 
