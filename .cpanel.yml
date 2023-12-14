@@ -1,6 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH1=/home/seo88/public_html/gg
+    - export DEPLOYPATH1=/home/seo88/public_html/lucky
     - /bin/cp -R aset/img/lucky $DEPLOYPATH1
     
     - export DEPLOYPATH_CPANEL=/home/rrrrr/0/aa7.site/gg 
