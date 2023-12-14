@@ -1,4 +1,6 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/rrrrr/0/aa7.site/gg
-    - /bin/cp -R aset $DEPLOYPATH
+    - export DEPLOYPATH1=/home/rrrrr/0/aa7.site/gg
+    - /bin/cp -R aset $DEPLOYPATH1
+    - export DEPLOYPATH2=/home/seo88/public_html/gg
+    - /bin/cp -R aset $DEPLOYPATH2
