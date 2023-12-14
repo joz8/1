@@ -1,10 +1,7 @@
----
 deployment:
   tasks:
-    - export DEPLOYPATH_CPANEL=/home/rrrrr/0/aa7.site/gg
+    - export DEPLOYPATH1=/home/seo88/public_html/gg
+    - /bin/cp -R aset/img/lucky $DEPLOYPATH1
+    
+    - export DEPLOYPATH_CPANEL=/home/rrrrr/0/aa7.site/gg 
     - /bin/cp -R aset $DEPLOYPATH_CPANEL
-
-    - export DEPLOYPATH_GITHUB=/home/seo88/public_html/gg
-    - /bin/git clone https://github.com/joz8/1.git $DEPLOYPATH_GITHUB
-    - /bin/git -C $DEPLOYPATH_GITHUB checkout 86db32ed0d6838022fc9dfd7582c15877c96ba6c
-    - /bin/git -C $DEPLOYPATH_GITHUB checkout -qf aset/img/lucky
