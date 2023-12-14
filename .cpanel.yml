@@ -3,6 +3,6 @@ deployment:
     - export DEPLOYPATH1=/home/seo88/public_html/g1
     - /bin/cp -R aset/img/g1 $DEPLOYPATH1
     
-    - export DEPLOYPATH_CPANEL=/home/rrrrr/public_html/r1
-    - /bin/cp -R aset/img/r1 $DEPLOYPATH_CPANEL
+    - export DEPLOYPATH_CPANEL=/home/rrrrr/public_html/e1
+    - /bin/cp -R aset/img/e1 $DEPLOYPATH_CPANEL
 
