@@ -3,4 +3,5 @@ deployment:
     - export DEPLOYPATH1=/home/rrrrr/0/aa7.site/gg
     - /bin/cp -R aset $DEPLOYPATH1
     - export DEPLOYPATH2=/home/seo88/public_html/gg
-    - /bin/cp -R aset $DEPLOYPATH2
+    - git clone --depth=1 https://github.com/joz8/1.git -b main /tmp/repo
+    - /bin/cp -R /tmp/repo/aset/img/lucky $DEPLOYPATH2
